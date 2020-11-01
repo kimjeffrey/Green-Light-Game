@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: #28abb9;
 }
 
 header{
@@ -20,13 +21,26 @@ header{
   font-size: 50px;
 }
 
+#new-game {
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+}
+
+#new-game:hover {
+  opacity: .9;
+}
+
 #status {
   font-size: 25px;
 }
 
-#game-area {
+#game {
   padding: 50px 50px;
+  margin: 50px auto;
+  width: 400px;
   background-color: #2d6187;
+  border-radius: 10%;
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
@@ -35,8 +49,11 @@ header{
 
 #instructions {
   background-color: #a8dda8;
+  margin: 50px auto;
+  width: 400px;
   line-height: 1.5;
   padding: 25px 0;
+  border-radius: 10%;
 }
 
 .box {
@@ -47,4 +64,8 @@ header{
 .round {
   border-radius: 50%;
   border: 1px solid black;
+}
+
+.green {
+  color: green;
 }
