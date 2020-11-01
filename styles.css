@@ -1,0 +1,50 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header{
+  background-color: #28abb9;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#status {
+  font-size: 25px;
+}
+
+#game-area {
+  padding: 50px 50px;
+  background-color: #2d6187;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  justify-content: center;
+}
+
+#instructions {
+  background-color: #a8dda8;
+  line-height: 1.5;
+  padding: 25px 0;
+}
+
+.box {
+  width: 300px;
+  margin: auto;
+}
+
+.round {
+  border-radius: 50%;
+  border: 1px solid black;
+}
