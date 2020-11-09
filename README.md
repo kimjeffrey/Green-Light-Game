@@ -1,4 +1,4 @@
-# Green Light Game
+# [Green Light Game](https://green-light-game.herokuapp.com/)
 
 ![Green Light Game Image](images/Green-light-game.png)
 
